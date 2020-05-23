@@ -187,7 +187,6 @@ def player_stats(name)
   players = all_players()
   
   players.each do |element|
-    binding.pry
     if element[:player_name] == name
       return players[index]
       binding.pry
