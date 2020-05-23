@@ -194,8 +194,11 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds
+  players = all_players()
+  rebounds = 0
   
-  11
+  
+  players.each
   
 end
 
