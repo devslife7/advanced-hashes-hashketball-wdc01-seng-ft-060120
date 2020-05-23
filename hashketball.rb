@@ -198,7 +198,7 @@ def player_stats(name)
       
       binding.pry
       
-      player_info =  players[element]
+      player_info =  element
     end
     
   end
