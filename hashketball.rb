@@ -187,19 +187,20 @@ def player_stats(name)
   players = all_players()
   test = "outside loop"
   
+  
   players.each do |element|
-    binding.pry
+    #binding.pry
     if element[:player_name] == name
       
       test = "insideLoop"
       
       binding.pry
       
-      return players[index]
+      player_info =  players[index]
     end
     
   end
-  
+  player_info
 end
 
 
