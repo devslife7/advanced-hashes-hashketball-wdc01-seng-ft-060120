@@ -198,11 +198,12 @@ def player_stats(name)
       
       player_info =  element
       
-      binding.pry
+      #binding.pry
     end
     
   end
   player_info
+  binding.pry
 end
 
 
