@@ -196,7 +196,7 @@ def player_stats(name)
       
       test = "insideLoop"
       
-      player_info =  element
+      return element
       
       #binding.pry
     end
