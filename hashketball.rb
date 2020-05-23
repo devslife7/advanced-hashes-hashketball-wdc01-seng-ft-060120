@@ -185,6 +185,7 @@ end
 
 def player_stats(name)
   players = all_players()
+  players_info = {}
   test = "outside loop"
   
   
