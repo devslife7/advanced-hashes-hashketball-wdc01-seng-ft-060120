@@ -190,9 +190,12 @@ def player_stats(name)
   players.each do |element|
     binding.pry
     if element[:player_name] == name
-      return players[index]
+      
       test = "insideLoop"
+      
       binding.pry
+      
+      return players[index]
     end
     
   end
