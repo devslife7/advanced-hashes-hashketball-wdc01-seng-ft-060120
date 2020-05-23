@@ -203,8 +203,6 @@ def big_shoe_rebounds
     if players_info[:shoe] > shoe_size
       shoe_size = players_info[:shoe]
       player_index = players.index(players_info)
-      
-      #binding.pry
     end
   end
   
