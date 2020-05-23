@@ -204,12 +204,12 @@ def big_shoe_rebounds
       shoe_size = players_info[:shoe]
       player_index = players.index(players_info)
       
-      binding.pry
+      #binding.pry
     end
   end
   
   players[player_index][:rebounds]
-  binding.pry
+  #binding.pry
   
 end
 
